@@ -3,7 +3,7 @@
     "go.alternateTools": {
         "go": "${env:HOME}/.asdf/shims/go",
     },
-    "go.inferGopath": true, // required for go versions < 1.11
+    "go.inferGopath": false, // required for go versions < 1.11
     "go.toolsEnvVars": {
         "GOPATH": "${env:HOME}/go"
     }
